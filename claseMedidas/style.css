@@ -3,12 +3,17 @@
     margin: 0;
     padding: 0;
 }
-html {
-    font-size: 62.5%;
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
 }
-p {
-    font-size: 1.6rem;
-}
-main div {
-    font-size: 1.6rem;
+section {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 500px;
+    background-color: red;
 }
